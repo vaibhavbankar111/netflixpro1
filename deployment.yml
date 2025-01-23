@@ -15,7 +15,7 @@ spec:
         app: netflix-app
     spec:
       containers:
-      - name: netflix-ecr
+      - name: netflix-app
         image: hackerboypk/netflix:latest
         ports:
         - containerPort: 80
